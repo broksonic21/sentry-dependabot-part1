@@ -49,6 +49,8 @@ GEM
     mutex_m (0.2.0)
     nokogiri (1.15.5-arm64-darwin)
       racc (~> 1.4)
+    nokogiri (1.15.5-x86_64-linux)
+      racc (~> 1.4)
     psych (5.1.2)
       stringio
     racc (1.7.3)
@@ -83,13 +85,13 @@ GEM
     reline (0.4.1)
       io-console (~> 0.5)
     ruby2_keywords (0.0.5)
-    sentry-rails (5.15.1)
+    sentry-rails (5.15.2)
       railties (>= 5.0)
-      sentry-ruby (~> 5.15.1)
-    sentry-ruby (5.15.1)
+      sentry-ruby (~> 5.15.2)
+    sentry-ruby (5.15.2)
       concurrent-ruby (~> 1.0, >= 1.0.2)
-    sentry-sidekiq (5.15.1)
-      sentry-ruby (~> 5.15.1)
+    sentry-sidekiq (5.15.2)
+      sentry-ruby (~> 5.15.2)
       sidekiq (>= 3.0)
     sidekiq (7.2.0)
       concurrent-ruby (< 2)
@@ -105,10 +107,11 @@ GEM
 
 PLATFORMS
   arm64-darwin-22
+  x86_64-linux
 
 DEPENDENCIES
-  sentry-rails (= 5.15.1)
-  sentry-sidekiq (= 5.15.1)
+  sentry-rails (= 5.15.2)
+  sentry-sidekiq (= 5.15.2)
 
 BUNDLED WITH
    2.4.19

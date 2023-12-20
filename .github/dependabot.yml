@@ -13,5 +13,5 @@ updates:
       prefix: "[bundler] "
     groups:
       sentry:
-      patterns:
-        - "sentry*"
+        patterns:
+          - "sentry*"

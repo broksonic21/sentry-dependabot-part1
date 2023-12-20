@@ -85,13 +85,13 @@ GEM
     reline (0.4.1)
       io-console (~> 0.5)
     ruby2_keywords (0.0.5)
-    sentry-rails (5.15.1)
+    sentry-rails (5.15.2)
       railties (>= 5.0)
-      sentry-ruby (~> 5.15.1)
-    sentry-ruby (5.15.1)
+      sentry-ruby (~> 5.15.2)
+    sentry-ruby (5.15.2)
       concurrent-ruby (~> 1.0, >= 1.0.2)
-    sentry-sidekiq (5.15.1)
-      sentry-ruby (~> 5.15.1)
+    sentry-sidekiq (5.15.2)
+      sentry-ruby (~> 5.15.2)
       sidekiq (>= 3.0)
     sidekiq (7.2.0)
       concurrent-ruby (< 2)
@@ -109,9 +109,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  sentry-rails (= 5.15.1)
-  sentry-ruby (= 5.15.1)
-  sentry-sidekiq (= 5.15.1)
+  sentry-rails (= 5.15.2)
+  sentry-ruby (= 5.15.2)
+  sentry-sidekiq (= 5.15.2)
 
 BUNDLED WITH
    2.4.19
